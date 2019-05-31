@@ -1,0 +1,27 @@
+mayikt:
+  baseImgUrl: http://meite.natapp1.cc/updateTokenState?token=
+
+
+
+spring:
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: 123456
+  freemarker:
+    allow-request-override: false
+    cache: false
+    check-template-location: true
+    charset: UTF-8
+    content-type: text/html; charset=utf-8
+    expose-request-attributes: false
+    expose-session-attributes: false
+    expose-spring-macro-helpers: false
+    suffix: .ftl
+    template-loader-path: classpath:/templates
+server:
+  port: 8080
